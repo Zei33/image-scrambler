@@ -17,3 +17,5 @@ In the age of operating systems that report the signatures of any images you dow
 **This extension is only able to modify JPEG, PNG or GIF files. Other file types may be added eventually if it's possible.**
 
 **Some CORS policies require you to be accessing the image from the host website. You will get a warning if this occurs and you just need to navigate directly to the image first.**
+
+This is a proof of concept and not fool proof by any means. You would need to trust Google since this application can not intercept the response before it goes through the browser. The concept should be considered for implementation in privacy browsers like TOR for users in countries that have authoritarian governments. Checking image signatures *will* be misused in the future. It's only a matter of when and how.
